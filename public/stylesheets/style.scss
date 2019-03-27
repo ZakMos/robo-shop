@@ -1,10 +1,22 @@
-$link-color: #00B7FF;
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
-body {
-  padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+$navbar-height: 56px;
+
+.site-header {
+  .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
 }
 
-a {
-  color: $link-color;
+.site-content {
+  padding-top: $navbar-height;
+}
+
+.product-card {
+  width: 100%;
+}
+
+.cart-indicator {
+  font-size: .6rem;
 }
