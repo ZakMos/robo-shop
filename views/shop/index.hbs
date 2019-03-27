@@ -1,0 +1,26 @@
+{{! area for flash messages }}
+{{#if messages}}
+  {{> alert type="info" messages=messages}}
+{{/if}}
+
+<section class="row">
+  {{! you can loop through arrays with each}}
+  {{#each products }}
+  <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex" id="prod-{{this.id}}">
+    <article class="card product-card mb-4 text-white bg-dark">
+      {{! `this` stands for the current item in the loop }}
+      <img class="card-img-top" src="{{this.imgUrl}}" alt="{{this.title}}">
+      <section class="card-body">
+        <h5 class="card-title product-title">{{this.title}}</h5>
+        <p class="card-text product-description">
+          {{this.description}}
+        </p>
+      </section>
+      <section class="card-footer product-info d-flex justify-content-between align-items-center">
+        <p class="mb-0 product-info">Price: <strong class="product-price">${{this.price}}</strong></p>
+        <a href="/cart/add/{{this.id}}" class="btn btn-outline-light cart-add">Add to cart</a>
+      </section>
+    </article>
+  </div>
+  {{/each}}
+</section>
