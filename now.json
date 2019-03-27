@@ -1,0 +1,7 @@
+{
+  "env": {
+    "NODE_ENV": "production",
+    "MONGO_URL": "@robo-shop-db-url",
+    "AUTH_TOKEN": "@robo-shop-token-secret"
+  }
+}
