@@ -1,9 +1,15 @@
+/**
+ * EXTERNAL DEPS
+ */
 const express = require('express');
 const router = express.Router();
 
+/**
+ * CONTROLLERS
+ */
+const shopController = require('../controllers/shop');
+
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/', shopController.get);
 
 module.exports = router;
