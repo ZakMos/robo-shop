@@ -1,0 +1,8 @@
+<div class="alert alert-{{type}} alert-dismissible fade show" role="alert">
+  {{#each messages as |message|}}
+  <p class="error-message mb-0">{{message}}</p>
+  {{/each}}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
