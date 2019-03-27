@@ -1,0 +1,16 @@
+.site-header .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.site-content {
+  padding-top: 56px;
+}
+
+.product-card {
+  width: 100%;
+}
+
+.cart-indicator {
+  font-size: 0.6rem;
+}
