@@ -1,4 +1,4 @@
-**
+/**
  * Renders login page
  */
 exports.login = (req, res) => {
