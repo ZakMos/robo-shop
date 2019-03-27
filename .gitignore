@@ -2,8 +2,8 @@
 /.vscode
 
 # Build
-**/*.css
-**/*.css.map
+public/**/*.css
+public/**/*.css.map
 
 # Logs
 logs
