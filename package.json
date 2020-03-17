@@ -7,6 +7,9 @@
     "watch": "DEBUG=online-shop:* nodemon --inspect ./bin/www",
     "debug": "DEBUG=online-shops:* node --inspect ./bin/www"
   },
+  "engines": {
+    "node": "13.7.0"
+  },
   "dependencies": {
     "bcrypt": "^4.0.1",
     "bootstrap": "^4.4.1",
