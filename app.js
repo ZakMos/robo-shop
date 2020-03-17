@@ -42,7 +42,8 @@ mongoose.connect(
   env.db,
   {
     useNewUrlParser: true,
-    useCreateIndex: true
+    useCreateIndex: true,
+    useUnifiedTopology: true
   }
 );
 // eslint-disable-next-line no-console
