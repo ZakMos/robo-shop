@@ -25,7 +25,9 @@ async function seed() {
   mongoose.connect(
     db,
     {
-      useNewUrlParser: true
+      useNewUrlParser: true,
+      useFindAndModify: true,
+      useCreateIndex: true
     }
   );
   mongoose.connection.on('error', console.error);

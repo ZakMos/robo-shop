@@ -16,7 +16,7 @@ const User = require('../models/user');
 
 
 async function seed(){
-  // Don;t run this function if it is not the devlopment environment
+  // Don;t run this function if it is not the development environment
   if(env !== 'development') return;
 
   const testUser = {
@@ -34,7 +34,7 @@ async function seed(){
   mongoose.connection.on('error', console.error);
 
   try {
-    // First Try to delete an exisiting test user
+    // First Try to delete an existing test user
     await User.deleteOne({ email: testUser.email });
     console.log('Test user deleted');
   } catch(e){ console.error(e); }

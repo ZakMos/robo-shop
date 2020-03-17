@@ -1,8 +1,8 @@
 {
   "env": {
     "NODE_ENV": "production",
-    "MONGO_URL": "@robo-shop-db-url",
-    "AUTH_TOKEN": "@robo-shop-token-secret",
-    "SESSION_SECRET": "@robo-shop-session-secret"
+    "MONGO_URL": "@online-shop-db-url",
+    "AUTH_TOKEN": "@online-shop-token-secret",
+    "SESSION_SECRET": "@online-shop-session-secret"
   }
 }
