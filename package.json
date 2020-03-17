@@ -8,11 +8,11 @@
     "debug": "DEBUG=online-shops:* node --inspect ./bin/www"
   },
   "dependencies": {
-    "bcrypt": "^4.0.0",
+    "bcrypt": "^4.0.1",
     "bootstrap": "^4.4.1",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^3.2.0",
-    "cookie-parser": "~1.4.4",
+    "cookie-parser": "^1.4.5",
     "csurf": "^1.11.0",
     "debug": "^2.6.9",
     "express": "~4.16.1",
@@ -21,12 +21,12 @@
     "express-validator": "^6.4.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "mongoose": "^5.9.1",
+    "mongoose": "^5.9.5",
     "morgan": "~1.9.1",
     "node-sass-middleware": "^0.11.0",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
-    "server": "^1.0.25"
+    "server": "^1.0.27"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
